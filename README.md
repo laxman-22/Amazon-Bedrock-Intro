@@ -1,4 +1,4 @@
-# Amazon-Bedrock-Intro
+# Amazon Bedrock Intro
 
 This repository contains the code that allows a user to interact with a model using Amazon Bedrock, Redis (for memory), and FastAPI (for the endpoint).
 
@@ -31,3 +31,6 @@ uvicorn fast_api:app --reload
 8) Use Postman to make requests to the Amazon Bedrock model via the FastAPI endpoints (ensure payloads are in the Body of each request and they are in a JSON format)
 
 9) In order to run the testing suite, keep the Docker image running and run the test code
+```(bash)
+pytest --cov=. test_suite.py 
+```
