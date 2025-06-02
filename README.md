@@ -1,6 +1,6 @@
 # Amazon Bedrock Intro
 
-This repository contains the code that allows a user to interact with a model (Claude 3.5 Haiku) using Amazon Bedrock, Redis (for memory), and FastAPI (for the endpoint).
+This repository contains the code that allows a user to interact with a model (Claude 3.5 Haiku) using Amazon Bedrock, Redis (for memory), and FastAPI (for the endpoint). The link to the video can be found [here](https://youtu.be/HDVv5YLQdq8)
 
 ## Code Structure
 
